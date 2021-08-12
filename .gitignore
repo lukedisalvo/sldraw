@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+.vagrant/*
+*.log
+Coverage_Report/*

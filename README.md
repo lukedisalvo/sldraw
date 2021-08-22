@@ -33,14 +33,14 @@ You will see a car drawn in a popup window. Any other tests in the tests folder 
 
 ## Make Your Own Drawing!
 There are three different options to start drawing to your heart's desire.
-Point with  a  value  of  two  coordinates  of  type  Number.  Points are rendered as filled circles.Ex:
+Point with  a  value  of  two  coordinates  of  type  Number.  Points are rendered as filled circles. Ex:
 ```sh
 (point 0 0)
 ```
 Line with a value of two Points.
 Ex: 
 ```sh 
-(line (point 0 0))
+(line (point 0 0) (point 10 0))
 ```
 Arc with a value of two Points and a Number. The first Point is the center  of  the  arc,  the  second  is  the  starting  point  of  the  arc,  and  the  Number  is  the spanning angle in radians. Ex:
 ```sh
